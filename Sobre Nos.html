@@ -1,101 +1,411 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sobre Nós!</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  </head>
-  
-  <body>
-    
+<html lang="pt-br">
 
-    <nav class="navbar navbar-expand-lg" style="background-color:#ADD8E6">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="Index.html">
-          <img src="imagens/LOGO.png" alt="" width="65" height="65">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav" style="text-align: justify ;">
-            <a class="nav-link active; altera-fontes" aria-current="page" href="Index.html">Home</a>
-            <a class="nav-link active; altera-fontes" href="Sobre Nos.html">Sobre</a>
-            <button type="button" class="btn btn-outline-danger" href="#">Acesse o app!</button>
-          </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-              <a href="https://www.instagram.com/kidlogic_world/"><img src="imagens/Logo-Instagram-Preta.png" width="65" height="65"></a>
-            </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre Nós!</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <style>
+    .altera-fontes {
+      font-style: normal;
+      font-size: 120%;
+      font-family: 'Courier New', Courier, monospace;
+      float: left;
+    }
+
+    body {
+      background-image: url("imagens/images.jfif");
+    }
+
+    .esfuma {
+      width: 100%;
+      height: 100%;
+      background:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      color: rgb(180, 197, 248);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .jumbo {
+
+      color: black;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+    .cards {
+
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10%;
+      margin-left: -5%;
+
+
+    }
+
+    .card {
+
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin-left: 5%;
+
+    }
+
+    @font-face {
+      font-family: fontezinha;
+      src: url(fontes/Bruno_Ace_SC/BrunoAceSC-Regular.ttf) format('truetype');
+    }
+
+    @font-face {
+      font-family: titulo;
+      src: url(fontes/Sigmar/Sigmar-Regular.ttf);
+    }
+
+    .textocomum {
+
+      font-family: fontezinha;
+      color: black;
+      margin-top: 5%;
+      text-align: center;
+      display: flex;
+
+    }
+
+    .titulos {
+
+      font-family: titulo;
+      src: url(fontes/Sigmar/Sigmar-Regular.ttf);
+      color: black;
+      text-align: center;
+      background-color: aliceblue;
+    }
+
+  </style>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg" style="background-color:#ADD8E6">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Index.html">
+        <img src="imagens/LOGO.png" alt="" width="65" height="65">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav" style="text-align: justify ;">
+          <a class="nav-link active; altera-fontes" aria-current="page" href="Index.html">Home</a>
+          <a class="nav-link active; altera-fontes" href="Sobre Nos.html">Sobre</a>
+          <button type="button" class="btn btn-outline-danger" href="https://drive.google.com/file/d/19msY2a-3-mlM7lvu9ixFX1ZESUqDSTOi/view?usp=drivesdk">Acesse o app!</button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <a href="https://www.instagram.com/kidlogic_world/"><img src="imagens/Logo-Instagram-Preta.png" width="65" height="65"></a>
         </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-      <footer class="text-center text-lg-start" style="background-color:rgba(106, 106, 235, 0.9) ;">
-        <!-- Grid container -->
-        <div class="container p-4">
-          <div class="me-5 d-none d-lg-block">
-            <h2 style="text-align: center;">Acesse nossas redes sociais:</h2>
-          </div>
-          <!-- Left -->
-      
-          <!-- Right -->
-          <div>
-            <a href="" class="me-4 link-secondary">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-              <i class="fab fa-google"></i>
-            </a>
-            <a href="https://www.instagram.com/kidlogic_world/" class="me-4 link-secondary">
-              <img src="imagens/Logo-Instagram-Colorida.png" width="60" height="60" style="margin-left: 38%; margin-bottom: 2%;">
-            </a>
-            <a href="" class="me-4 link-secondary">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="me-4 link-secondary">
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
-          <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-          <!--Grid row-->
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Sobre a empresa!</h5>
-      
-              <a href="Sobre Nos.html" style="color: black ;">Sobre Nós</a> <br>
-              <a href="Sobre Nos.html" style="color: black ;">Organograma</a> <br>
-              <a href="https://www.instagram.com/kidlogic_world/" style="color: black ;">Seja um Kidlover!</a> <br>
+  <h1 class="titulos">Conheça nossa equipe!</h1>
 
-            </div>
-            <!--Grid column-->
-      
-            <!--Grid column-->
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-              <h5 class="text-uppercase">KidLogic!</h5>
-              <a href="Index.html" style="color: black ;">Conheça nosso App!</a> <br>
-              <a href="Index.html" style="color: black ;">Home</a> <br>
-            </div>
-            <!--Grid column-->
+  <div id="SlideJumbo" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="8" aria-label="Slide 9"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="9" aria-label="Slide 10"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="10" aria-label="Slide 11"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="11" aria-label="Slide 12"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="12" aria-label="Slide 13"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="13" aria-label="Slide 14"></button>
+      <button type="button" data-bs-target="#SlideJumbo" data-bs-slide-to="14" aria-label="Slide 15"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%; text-align: center">Matheus!</h1>
+            <img src="imagens/Gerente.jpg" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 30%; margin-bottom: 20%; text-align: center">Gerente</p>
           </div>
-          <!--Grid row-->
         </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2023 Copyright:
-          <a class="text-dark" href="https://mdbootstrap.com/">KidLogic.com.br</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-  </body>
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Maísa!</h1>
+            <img src="imagens/EquipeMaisa.jpeg" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Gerente de Requisitos!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Chandler!</h1>
+            <img src="imagens/EquipeChandler.jpeg" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Area de Requisitos!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Rômulo!</h1>
+            <img src="imagens/EquipeRomulo.jpeg" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Area de Requisitos!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Breno!</h1>
+            <img src="imagens/EquipeBreno.jpeg" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Area de Requisitos!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Cadu!</h1>
+            <img src="imagens/KidLogic%20Bot5.png" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Area de Requisitos!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Gê!</h1>
+            <img src="imagens/KidLogic%20Bot4.png" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Area de Requisitos!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Estevão!</h1>
+            <img src="imagens/EquipeEstevao.jpeg" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Gerente de Design!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Renan!</h1>
+            <img src="imagens/EquipeRenan.jpeg" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Area de Design!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Vinicius!</h1>
+            <img src="imagens/EquipeVinico.jpeg" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Area de Design!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Gean!</h1>
+            <img src="imagens/EquipeGean.jpeg" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Area de Design!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Gabriel Jardim!</h1>
+            <img src="imagens/EquipeGabrielJardim.jpeg" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Area de Design!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Elizeu!</h1>
+            <img src="imagens/EquipeElizeu.jpeg" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Gerente de DEV!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item" style="width: 70%; margin-left: 15%; padding-top: 15%;">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 50px; padding-bottom: 2%;">
+            <h1 class="textocomum" style="margin-bottom:20%;margin-left: 15%;">Gabriel Alencar!</h1>
+            <img src="imagens/KidLogic%20Bot1.png" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ; border-radius: 100px">
+            <p class="textocomum" style="margin-left: 10%; margin-bottom: 20%">Analista de DEV!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#SlideJumbo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#SlideJumbo" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+  <div class="jumbotron jumbotron-fluid;" style="margin-top: 10% ">
+    <div class="container" style="padding-top:%;padding-bottom:15%;background-color: #ADD8E6; padding-top: 5%">
+
+      <h1 class="titulos">Conheça mais sobre nós!</h1>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 100px; padding-bottom: 2%; padding-top: 15%;">
+          <img src="imagens/KarateKidLogic%20.png" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ;">
+          <h1 class="titulos" style="text-align:center ;">Missão</h1>
+          <h5 class="textocomum" style="text-align:center ;">
+            Nossa missão na KIDLOGIC é capacitar a próxima geração de inovadores e solucionadores de problemas, fornecendo uma plataforma gratuita, divertida, envolvente e acessível para os adolescentes aprenderem e dominarem as habilidades de programação.
+          </h5>
+        </div>
+      </div>
+
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 100px; padding-bottom: 2%; padding-top: 15%; margin-top: 2%">
+          <img src="imagens/KidLogic%20Blast%20Brincando.png" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ;">
+          <h1 class="titulos" style="text-align:center ;">Visão</h1>
+          <h5 class="textocomum" style="text-align:center ;">
+            Nossa visão é ser o principal aplicativo de codificação educacional para adolescentes gratuito a nível nacional, fornecendo aos jovens as habilidades, recursos e suporte necessários para liberar todo o seu potencial e se tornar a próxima geração de líderes e inovadores em tecnologia.
+            Nós vislumbramos um futuro em que todo adolescente, independentemente de sua formação ou circunstâncias, tenha a oportunidade de aprender e dominar as habilidades de codificação de uma forma divertida, envolvente e acessível.
+            Acreditamos ainda que, ao capacitar os jovens com essas habilidades, podemos ajudar a criar uma sociedade mais equitativa e inclusiva, onde todos têm a chance de ter sucesso. Dedicamo-nos a criar uma comunidade de aprendizes ao longo da vida, apaixonados por programação e comprometidos em usar suas habilidades para causar um impacto positivo no mundo.
+            Queremos inspirar e nutrir a criatividade, a curiosidade e as habilidades de resolução de problemas dos jovens e equipá-los com as ferramentas necessárias para transformar suas ideias em realidade, criando um mundo onde os jovens sejam capacitados para usar a tecnologia e a programação para resolver os desafios mais prementes de nosso tempo e criar um futuro mais brilhante e próspero para todos nós.
+          </h5>
+        </div>
+      </div>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container" style="background-color: rgb(221, 171, 78); border-radius: 100px; padding-bottom: 2%; padding-top: 15%; margin-top: 2%">
+          <img src="imagens/KidLogic%20Blast%20Surpreso.png" style="display: block; width: 30%; height:30%; margin-left: 35%; margin-top:-15% ;">
+          <h1 class="titulos" style="text-align:center ;">Valores</h1>
+          <h5 class="textocomum" style="text-align:center ;">
+            Acessibilidade: Acreditamos que a educação em codificação deve ser acessível a todos, independentemente de sua formação, recursos ou habilidades. Estamos comprometidos em remover barreiras ao aprendizado e fornecer uma plataforma gratuita, fácil de usar, envolvente e acessível.<br>
+
+            Comunidade: Acreditamos que aprender a codificar é melhor feito em um ambiente de suporte e colaboração. Valorizamos o poder da comunidade para inspirar, motivar e capacitar os alunos, e nos esforçamos para criar uma comunidade de indivíduos com ideias semelhantes que possam aprender e apoiar uns aos outros.<br>
+
+            Inovação: Acreditamos que o mundo da codificação e da tecnologia está em constante evolução e estamos comprometidos em permanecer na vanguarda dessa mudança. Valorizamos a criatividade, a curiosidade e a vontade de experimentar e assumir riscos em busca de novas e melhores maneiras de ensinar e aprender programação.
+
+          </h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="text-center text-lg-start" style="background-color:rgba(106, 106, 235, 0.9) ;">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <div class="me-5 d-none d-lg-block">
+        <h2 style="text-align: center;">Acesse nossas redes sociais:</h2>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="https://www.instagram.com/kidlogic_world/" class="me-4 link-secondary">
+          <img src="imagens/Logo-Instagram-Colorida.png" width="60" height="60" style="margin-bottom: 2%;">
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Sobre a empresa!</h5>
+
+          <a href="Sobre Nos.html" style="color: black ;">Sobre Nós</a> <br>
+          <a href="Sobre Nos.html" style="color: black ;">Organograma</a> <br>
+          <a href="https://www.instagram.com/kidlogic_world/" style="color: black ;">Seja um Kidlover!</a> <br>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">KidLogic!</h5>
+          <a href="https://drive.google.com/file/d/19msY2a-3-mlM7lvu9ixFX1ZESUqDSTOi/view?usp=drivesdk" style="color: black ;">Conheça nosso App!</a> <br>
+          <a href="Index.html" style="color: black ;">Home</a> <br>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">KidLogic.com.br</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+
 </html>
